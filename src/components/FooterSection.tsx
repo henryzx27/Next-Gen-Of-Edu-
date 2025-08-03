@@ -4,8 +4,8 @@ import { Mail, Phone, MapPin, Heart, Code, Zap } from "lucide-react";
 
 const FooterSection = () => {
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "ragavan.dev@gmail.com" },
-    { icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
+    { icon: Mail, label: "Email", value: "henryraghav007@gmail.com" },
+    // { icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
     { icon: MapPin, label: "Location", value: "Tamil Nadu, India" }
   ];
 

@@ -12,7 +12,7 @@ const CreatorSection = () => {
   ];
 
   const techStack = [
-    "React", "TypeScript", "Node.js", "Python", "Flutter", "Firebase", "MongoDB", "AWS"
+    "React", "Javascript", "Node.js", "Python", "Java", "Express", "MongoDB", "AWS"
   ];
 
   return (
@@ -81,10 +81,12 @@ const CreatorSection = () => {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button variant="hero" className="group">
-                    <Github className="w-4 h-4" />
-                    View Projects
-                  </Button>
+                  <a href="https://henry.cryza.in" target="_blank" rel="noopener noreferrer">
+                    <Button variant="hero" className="group">
+                      <Github className="w-4 h-4" />
+                      View Portfolio
+                    </Button>
+                  </a>
                   <Button variant="glass">
                     <Mail className="w-4 h-4" />
                     Get in Touch
